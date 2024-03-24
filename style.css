@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     font-family: "Helvetica";
-    /*background-color:rgb(241, 247, 255) ;*/
 }
 /*
 html, body{
@@ -12,18 +11,15 @@ html, body{
 }
 */
 body{
-    /*
-    background-image: linear-gradient( #ffffff, #280128);
-    background-image: linear-gradient( #ffffff, #2998c8);
-    */
     background-color: hsl(40, 50%, 70%);
-    overflow: auto;
+    /*overflow: auto;*/
 }
 
 img{
     height: 100%;
     width: 100%;
 }
+
 .navigaatio {
     list-style-type: none;
     overflow: visible;
@@ -64,7 +60,6 @@ img{
 
 
 
-
 #title{
     font-size: 400%;
     margin-top: 8%;
@@ -98,37 +93,56 @@ img{
     font-size: 120%;
 }
 
+
+
+
+
+
 .products{
     display: flex;
     justify-content: space-evenly;
-    height: 1000px;
 }
 
 .product{
     background-color:rgb(109, 145, 246);
-    width: 30%;
-    padding: 0px;
+    width: 30vw;
+    padding: 40px 20px;
+    box-sizing: border-box;
 }
 
 .product h3{
-    margin: 40px 50px 20px;
-    width: 90%;
-    font-size: 200%;
-}
-
-.product div{
-    height: 50%;
-    width: 90%;
-    margin: 0px auto;
+    margin-bottom: 15px;
+    font-size: 150%;
 }
 
 .product h4{
-    text-align: center;
-    background-color: blueviolet;
+    color: rgb(33, 33, 33);
+    margin: 5px 0px 15px;
 }
 
-.product p{
-    margin: 50px 50px 10px;
-    height: 25%;
+
+
+
+
+
+#contacts{
+    padding: 0px 50px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+
+#contacts h2{
+    margin-bottom: 30px;
+    font-size: 200%;
+}
+
+#contacts p{
     font-size: 120%;
+}
+
+#contacts iframe{
+    margin-top: 20px;
+    aspect-ratio: 3/2;
+    width: 55vw;
 }
